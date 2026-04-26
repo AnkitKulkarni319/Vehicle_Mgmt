@@ -17,7 +17,7 @@
   "cds": {
     "requires": {
       "[production]": {
-        "auth": "dummy"
+        "auth": "xsuaa"
       }
     },
     "server": {
