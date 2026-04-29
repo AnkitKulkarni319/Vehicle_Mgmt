@@ -1,5 +1,5 @@
 using {cicd as db} from '../db/schema';
-
+@requires:'CICD'
 service vehicleCatalog{
     entity Vehicle as projection on db.Vehicle;
 
