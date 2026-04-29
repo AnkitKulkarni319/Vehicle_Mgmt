@@ -54,3 +54,8 @@ resources:
           credential-types:
             - "binding-secret"
             - "x509"
+        role-collections:
+          - name: 'CICD (CICD ${org}-${space})'
+            description: 'generated'
+            role-template-references:
+              - '$XSAPPNAME.CICD'

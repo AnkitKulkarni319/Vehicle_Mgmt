@@ -1,5 +1,19 @@
 {
-  "scopes": [],
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.CICD",
+      "description": "CICD"
+    }
+  ],
   "attributes": [],
-  "role-templates": []
+  "role-templates": [
+    {
+      "name": "CICD",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.CICD"
+      ],
+      "attribute-references": []
+    }
+  ]
 }
